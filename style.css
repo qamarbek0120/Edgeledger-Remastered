@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4em;
+}
+
+
+a{
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1146px;
+    margin: auto;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color:#93cb52;
+    font-size: 30px;
+}
+
+.text-primary{
+    color: #93cb52;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background: #93cb52;
+}
+
+.l-heading{
+    font-size: 3rem;
+    margin-bottom: .75rem;
+    line-height: 1.1rem;
+}
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: .75rem;
+    line-height: 1.1rem;
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    color: white;
+    
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #7ab436;
+}
+
+.btn-dark{
+    background: #333;
+    border: none;
+    
+}
+
+
+
+.py-1{
+    padding: 1.5rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+
+
+.p-1{
+    padding: 1.5rem ;
+}
+.p-2{
+    padding: 2rem ;
+}
+.p-3{
+    padding: 3rem ;
+}
+
+.list{
+    margin: .5rem;
+    list-style: none;
+}
+.list li{
+    padding: .5rem 0;
+    border-bottom: #444 dotted 1.5px;
+}
+
+
+/* Navbar */
+
+
+
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background: #333;
+}
+
+#navbar .main-nav{
+   display: grid;
+   grid-template-columns: 7fr 3fr;
+}
+
+#navbar .main-nav ul {
+    display: flex;
+   padding-right: 1rem;
+    align-items: center;
+
+    
+}
+#navbar .main-nav ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    
+
+}
+#navbar .main-nav ul li a:hover{
+    background: #93cb52;
+    border-radius: 10px;
+    transition: .8s;
+}
+
+
+
+
+
+
+/* Showcaes */
+
+#showcase{
+    background: url(./img/wallpapersden.com_broken-girl-looking-at-sky_1920x1080.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5rem;
+    height: 100vh;
+
+  
+   
+
+
+  
+
+}
+#showcase .showcase-content h1{
+    line-height: 2rem;
+}
+
+
+
+/* what we do */
+
+
+
+
+#what .items{
+    display:flex;
+    padding: 1rem;
+}
+
+#what .items h2{
+   padding-top: .5rem;
+}
+
+#what .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+#what .items .item i{
+    background: #93cb52;
+    line-height: 5rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+
+
+/* Who we are */
+
+
+#who{
+    display: flex;
+    color: #fff;
+}
+#who  div{
+ flex: 1;
+
+}
+#who .who-img{
+    background: url(./img/360_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg) no-repeat center center /cover;
+}
+#who .who-text{
+    padding: 1.5rem;
+}
+
+
+/* our clients */
+
+
+#clients .items{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    text-align: center;
+
+} 
+
+
+/* image */
+.img1{
+    width: 200px;
+    padding: 2rem;
+
+
+}
+.img2{
+    width: 170px;
+    padding: 2rem;
+
+}
+.img3{
+    width: 180px;
+    padding: 2rem;
+
+}
+.img4{
+    width: 170px;
+    padding: 2rem;
+
+}
+.img5{
+    width: 150px;
+    padding: 2rem;
+
+}
+.img6{
+    width: 180px;
+    padding: 2rem;
+
+}
+
+
+
+
+/* Contact Us */
+
+
+
+#contact{
+    display: flex;
+    background: #93cb52;
+
+}
+
+#contact .map,
+#contact .contact-form{
+    flex: 1;
+}
+
+#contact .contact-form .form-group{
+    margin: .75rem;
+}
+#contact .contact-form .form-group input{
+    width: 500px;
+    height: 2rem;
+    outline: none;
+    line-height: 5rem;
+  
+}
+
+#contact .contact-form .form-group button,
+#contact .contact-form .form-group textarea{
+    display: block;
+    width: 500px;
+}
+
+
+#contact .map iframe{
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+#main-footer{
+    background: #333;
+
+}
+#main-footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    #navbar .main-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+    #showcase{
+        display: none;
+    }
+    #what .container .items{
+        display: block;
+        padding: 3rem;
+        
+    
+    }
+
+    #who .who-img{
+        display: none;
+    }
+
+    #clients .items{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #contact .contact-form{
+        padding-left: 2.rem;
+       
+    }
+
+    #contact .contact-form .form-group{
+        margin: 1rem;
+      
+        
+        
+    }
+    #contact .contact-form .form-group input{
+        width: 300px;
+        height: 2rem;
+        outline: none;
+        line-height: 5rem;
+        
+      
+    }
+    
+    #contact .contact-form .form-group button,
+    #contact .contact-form .form-group textarea{
+        display: block;
+        width: 300px;
+    }
+    #contact .contact-form h2{
+        text-align: center;
+    }
+    #contact .contact-form p{
+        text-align: center;
+    }
+    #contact .map{
+        display: none;
+    }
+
+    #main-footer p{
+        font-size: 10px;
+       
+    }
+
+   
+
+        
+
+    
+
+
+
+
+ 
+}
+   
+
+
+
+    
+
+
+
+
+
+
+
+
+
